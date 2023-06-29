@@ -1,8 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Inter:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;400;700&display=swap');
 
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Heebo', sans-serif;
+}
+
+*:hover {
+    outline: 1px blue solid;
 }
 
 a {
@@ -10,79 +15,86 @@ a {
     color: inherit;
 }
 
-.button {
-    background-color: #3882F6;
-    color: #F9FAF8;
-    padding: 8px 12px;
-    border-radius: 4px;
-}
+/* HEADER */
 
-
-
-.header {
-    font-family: 'Inter', sans-serif;
+header {
     background-color: #1F2937;
-    color: #F9FAF8;
-    padding: 16px;
     display: flex;
-    align-items: center;
     justify-content: center;
 }
 
+.header-content {
+    color: #F9FAF8;
+    padding: 16px 16px;
+    display: flex;
+    flex: 1 auto;
+    justify-content: space-between;
+    max-width: 900px;
+}
 
-.header h2 {
+.header-logo {
     flex: 1;
 }
 
-nav {
+.header-links {
     list-style: none;
     display: flex;
-    flex: 0 0 auto;
+    justify-content: flex-end;
+    align-items: center;
     gap: 16px;
+    flex: 1;
+}
+/* HEADER END */
+
+.button {
+    font-weight: bold;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 6px 30px;
+    border-radius: 7px;
 }
 
-nav a {
-    padding: 0 16px;
+/* MAIN */
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.hero {
-    font-family: 'Caprasimo', cursive;
+.hero-content {
+    background-color: #1F2937;
+    max-width: 900px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.hero-text {
     background-color: #1F2937;
     color: #F9FAF8;
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-
+    padding-bottom: 64px;
 }
 
-.main-text {
-    text-align: left;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    padding: 24px;
-    gap: 24px;
-}
-
-.hero .img-placeholder {
-    width: 200px;
-    height: 200px;
+.img-placeholder {
+    width: 100%;
+    height: 100;
     background-color: gray;
-    color: white;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
 }
 
 .info {
     color: #1F2937
 }
 
-.call-to-action {
-    background-color: #3882F6;
-}
+
 
 .quotes {
     background-color: #E5E7EB;
+}
+
+.call-to-action {
+    background-color: #3882F6;
+    max-width: 80%;
+    border-radius: 4px;
 }

@@ -107,7 +107,7 @@ header {
     display: flex;
     flex: 0 1 auto;
     justify-content: space-between;
-    gap: 64px;
+    gap: 48px;
 }
 
 .card {
@@ -116,6 +116,7 @@ header {
 }
 
 .card-image {
+    box-sizing: border-box; /* to keep borders inside div bounds */
     width: 150px;
     height: 150px;
     border: 3px solid #3882F6;

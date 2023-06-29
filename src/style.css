@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Inter:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+
+
+
+.header {
+    font-family: 'Inter', sans-serif;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.header h2 {
+    flex: 1;
+}
+
+nav {
+    list-style: none;
+    display: flex;
+    flex: 0 0 auto;
+    gap: 16px;
+}
+
+nav a {
+    padding: 0 16px;
+}
+
+.hero {
+    font-family: 'Caprasimo', cursive;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.main-text {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 24px;
+    gap: 24px;
+}
+
+.hero .img-placeholder {
+    width: 200px;
+    height: 200px;
+    background-color: gray;
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    color: #1F2937
+}
+
+.call-to-action {
+    background-color: #3882F6;
+}
+
+.quotes {
+    background-color: #E5E7EB;
+}

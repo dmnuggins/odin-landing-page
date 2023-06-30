@@ -28,6 +28,7 @@ header {
     max-width: 900px;
 }
 
+
 .header-logo {
     flex: 1;
 }
@@ -56,27 +57,26 @@ header {
     background-color: #1F2937;
     display: flex;
     justify-content: center;
-    padding: 112px 0px;
+    padding: 6rem 0 7rem 0;
 }
 
 .hero-content {
     max-width: 900px;
     display: flex;
     flex: 1 auto;
-    justify-content: space-between;
-    gap: 36px;
+    gap: 3rem;
 }
 
 .hero-message {
     background-color: #1F2937;
     color: #F9FAF8;
     flex: 1 auto;
-    max-width: 350px;
-    padding-bottom: 64px;
 }
 
 .hero-message h1 {
     padding-bottom: 8px;
+    font-size: 3rem;
+    line-height: 90%;
 }
 
 .hero-message p {
@@ -86,7 +86,7 @@ header {
 .hero-img {
     width: 100%;
     height: 100%;
-    flex: 0 1 auto;
+    flex: 1 auto;
     background-color: gray;
 }
 

@@ -6,10 +6,6 @@
     font-family: 'Heebo', sans-serif;
 }
 
-*:hover {
-    outline: 1px blue solid;
-}
-
 a {
     text-decoration: none;
     color: inherit;
